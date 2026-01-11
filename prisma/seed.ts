@@ -1,3 +1,20 @@
+/**
+ * ==========================================================
+ * Project Name   : Clinic Management System
+ * File Name      : seed.ts
+ * Component/Class: seed
+ * Description    : Implementation file for seed.ts
+ *
+ * Author         : Pramod Singh
+ * Created On     : 2026-01-09
+ * Last Modified  : 2026-01-09
+ * Version        : 1.0.0
+ *
+ * Notes          : This file is part of the Clinic Management System project. 
+ *                  All rights reserved by Pramod Singh.
+ * ==========================================================
+ */
+
 import { PrismaClient, Role } from '@prisma/client'
 import bcrypt from 'bcryptjs'
 

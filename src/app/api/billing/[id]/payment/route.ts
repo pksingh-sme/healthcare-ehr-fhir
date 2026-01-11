@@ -1,3 +1,20 @@
+/**
+ * ==========================================================
+ * Project Name   : Clinic Management System
+ * File Name      : route.ts
+ * Component/Class: payment API Route
+ * Description    : Billing and payment processing API endpoints with Stripe integration
+ *
+ * Author         : Pramod Singh
+ * Created On     : 2026-01-09
+ * Last Modified  : 2026-01-09
+ * Version        : 1.0.0
+ *
+ * Notes          : This file is part of the Clinic Management System project. 
+ *                  All rights reserved by Pramod Singh.
+ * ==========================================================
+ */
+
 import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 import { verifyTokenFromRequest } from '@/lib/auth'

@@ -1,3 +1,20 @@
+/**
+ * ==========================================================
+ * Project Name   : Clinic Management System
+ * File Name      : ThemeContext.tsx
+ * Component/Class: ThemeContext Context
+ * Description    : Theme context for light/dark mode switching and UI preferences
+ *
+ * Author         : Pramod Singh
+ * Created On     : 2026-01-09
+ * Last Modified  : 2026-01-09
+ * Version        : 1.0.0
+ *
+ * Notes          : This file is part of the Clinic Management System project. 
+ *                  All rights reserved by Pramod Singh.
+ * ==========================================================
+ */
+
 'use client'
 
 import React, { createContext, useContext, useEffect, useState } from 'react'

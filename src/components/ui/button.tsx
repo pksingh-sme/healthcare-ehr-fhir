@@ -1,3 +1,20 @@
+/**
+ * ==========================================================
+ * Project Name   : Clinic Management System
+ * File Name      : button.tsx
+ * Component/Class: button Component
+ * Description    : UI component for button
+ *
+ * Author         : Pramod Singh
+ * Created On     : 2026-01-09
+ * Last Modified  : 2026-01-09
+ * Version        : 1.0.0
+ *
+ * Notes          : This file is part of the Clinic Management System project. 
+ *                  All rights reserved by Pramod Singh.
+ * ==========================================================
+ */
+
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cva, type VariantProps } from "class-variance-authority"

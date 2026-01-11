@@ -1,3 +1,20 @@
+/**
+ * ==========================================================
+ * Project Name   : Clinic Management System
+ * File Name      : PatientLayout.tsx
+ * Component/Class: PatientLayout Component
+ * Description    : Layout wrapper component providing consistent page structure
+ *
+ * Author         : Pramod Singh
+ * Created On     : 2026-01-09
+ * Last Modified  : 2026-01-09
+ * Version        : 1.0.0
+ *
+ * Notes          : This file is part of the Clinic Management System project. 
+ *                  All rights reserved by Pramod Singh.
+ * ==========================================================
+ */
+
 'use client'
 
 import { useAuth } from '@/contexts/AuthContext'
